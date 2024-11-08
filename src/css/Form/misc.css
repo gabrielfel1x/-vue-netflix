@@ -56,3 +56,8 @@
 .learn-more-link {
   color: #0071eb;
 }
+
+.error {
+  margin-top: 12px;
+  color: #e50914;
+}

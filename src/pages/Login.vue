@@ -1,8 +1,17 @@
+<template>
+  <div class="login-view">
+    <header class="header">
+        <NetflixLogo />
+    </header>
+    <div class="login-container">
+      <LoginForm />
+    </div>
+  </div>
+</template>
+  
 <script setup lang="ts">
-// @ts-ignore
-import { useSessionStore } from '@/stores'
-
-const sessionStore = useSessionStore()
+import LoginForm from '@/components/LoginForm.vue'
+import NetflixLogo from '@/components/NetflixLogo.vue'
+import "@/css/login.css"
 </script>
-
-<template></template>
+  

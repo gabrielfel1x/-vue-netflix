@@ -1,0 +1,63 @@
+.forgot-password,
+.sign-up-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.forgot-password:hover,
+.sign-up-link:hover,
+.learn-more-link:hover {
+  text-decoration: underline;
+}
+
+.alternative-login {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+  text-align: center;
+  color: #b3b3b3;
+}
+
+.remember-me {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1.2rem 0;
+  gap: 12px;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: start;
+  color: #b3b3b3;
+  text-align: center;
+}
+
+.sign-up-link.router-link-active {
+  color: white;
+  font-weight: bold;
+}
+
+.additional-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.captcha-info {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #8c8c8c;
+}
+
+.learn-more-link {
+  color: #0071eb;
+}
+
+.error {
+  margin-top: 12px;
+  color: #e50914;
+}

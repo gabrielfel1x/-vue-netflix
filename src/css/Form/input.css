@@ -1,0 +1,47 @@
+.input-group {
+  margin-bottom: 1rem;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 1.5rem 1rem 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #0d0d0d;
+  opacity: 1;
+  border: 1px solid #aeaeae;
+  border-radius: 3.5px;
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: transparent;
+}
+
+.input-field:focus,
+.input-field:not(:placeholder-shown) {
+  color: white;
+}
+
+.input-field:focus ~ .floating-label,
+.input-field:not(:placeholder-shown) ~ .floating-label {
+  transform: translateY(-0.9rem);
+  font-size: 0.7rem;
+  top: 1.5rem;
+  color: #ffffff;
+}
+
+.floating-label {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  color: #b3b3b3;
+  opacity: 0.6;
+  pointer-events: none;
+  transition: all 0.2s ease-out;
+}
+
+.relative {
+  position: relative;
+}

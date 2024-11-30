@@ -20,7 +20,6 @@
 .netflix-logo {
   width: 150px;
   height: auto;
-  margin-bottom: 1.5rem;
 }
 </style>
   

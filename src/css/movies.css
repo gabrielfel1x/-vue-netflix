@@ -1,0 +1,51 @@
+.hero {
+  height: 80vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  max-width: 500px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.movie-row {
+  padding: 20px 40px;
+}
+
+.movie-row h2 {
+  margin-bottom: 1rem;
+}
+
+.movie-card {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.p-carousel .p-carousel-indicators {
+  display: none;
+}
+
+.error-message {
+  background-color: rgba(229, 9, 20, 0.1);
+  border: 1px solid var(--netflix-red);
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem;
+}
+.movie-rows {
+  padding-top: 80px;
+}

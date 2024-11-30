@@ -22,7 +22,6 @@ export const getMovies = async (endpoint: string): Promise<Movie[]> => {
     const response = await api.get(path)
     return response.data.results
   } catch (error) {
-    // Create a serializable error message
     const errorMessage =
       error instanceof Error ? error.message : 'Unknown error'
     console.error(`Error fetching movies for ${endpoint}: ${errorMessage}`)
